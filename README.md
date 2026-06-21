@@ -4,8 +4,8 @@ A minimal implementation of a neural
 encode-quantize-decode pipeline for raw speech waveforms, trained and
 evaluated on the Free Spoken Digit Dataset (FSDD), developed as a side project during the **Seminar: Selected Topics in Communications Engineering**, WS 24/25, RWTH Aachen. The current version on this repository is an improved and refactored version of the original implementation.
 
-This is inspired by **High-Fidelity Audio
-Compression with Improved RVQGAN** _(Kumar et al., NeurIPS 2023)_ and **Neural Discrete Representation Learning** _(van den Oord et al., VQ-VAE, NeurIPS 2017)_:
+This is inspired by [**High-Fidelity Audio
+Compression with Improved RVQGAN**](https://arxiv.org/pdf/2306.06546) _(Kumar et al., NeurIPS 2023)_ and [**Neural Discrete Representation Learning**](https://arxiv.org/pdf/1711.00937) _(van den Oord et al., VQ-VAE, NeurIPS 2017)_:
 
 - Convolutional encoder/decoder operating directly on raw audio
   samples like SoundStream/EnCodec/DAC.

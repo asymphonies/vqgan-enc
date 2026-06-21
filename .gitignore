@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+checkpoints/
+data/
+outputs/
+vqgan/
+
+*.pdf
+venv/
+.venv/
